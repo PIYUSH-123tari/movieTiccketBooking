@@ -100,7 +100,7 @@ signIn.addEventListener('click',(e)=>{
     const user=userCredential.user;
     localStorage.setItem('LoggedInUser',user.uid);
     setTimeout(()=>{
-    window.location.href="./homepage/index.html";// redirect to welcome page after successful login
+    window.location.href="./homepage/homepage.html";// redirect to welcome page after successful login
     },2000);
   })
   .catch((error)=>{
